@@ -27,6 +27,7 @@ LandingZone = f"{objects.s3path(innerpath='landing').fullpath}/{YearMonthDateFol
 def create_path_folder():
     if not os.path.exists(LandingZone):
         os.makedirs(LandingZone)
+        describe = "Function deveoped to extract data from cvm"
 
 url_list = list()
 def storing_files():
