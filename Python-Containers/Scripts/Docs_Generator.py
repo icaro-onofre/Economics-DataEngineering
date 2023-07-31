@@ -44,5 +44,5 @@ def create_structured_pdf(output_file):
 
 # Example usage
 if __name__ == "__main__":
-    output_file = r"C:\Users\SALA443\Desktop\Nova pasta (2)\curriculo.pdf"  # Replace with the desired output file name
+    output_file = r".\Outline.pdf"  # Replace with the desired output file name
     create_structured_pdf(output_file)
