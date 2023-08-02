@@ -7,7 +7,7 @@ class folderpath():
     within year-month-date
     """
     def __init__(self,year:str,month:str,day:str):
-        self.desc
+        
         self.year = year
         self.month = month
         self.day = day
@@ -19,8 +19,7 @@ class folderpath():
     def __str__(self) -> str:
         return f"{self.year}/{self.month}/{self.day}/"
     
-   
-print(folderpath.describe)
+
 class s3path():
     """This object builds folder structure of S3 datalake
     """
