@@ -8,13 +8,13 @@ FROM python:3.11.4-bullseye
 # Set the working directory inside the container
 RUN mkdir -p /App
 WORKDIR /App
-COPY . .
+COPY . /App
 
 RUN pip install --upgrade pip
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 RUN unzip awscliv2.zip
 RUN ./aws/install
-RUN pip install -r requirements.txt -t config
+RUN pip install -r requirements.txt -t App/config
 # RUN pip install pandas \
 #                 requests \
 #                 boto3 \
