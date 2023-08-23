@@ -1,4 +1,6 @@
 s3/
+Python-Containers/scripts/ELT_CVM_DFPs/storage/
+Python-Containers/scripts/ELT_CVM_DFPs/.env
 .devcontainer/
 C:/
 Python-Containers/App
